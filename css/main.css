@@ -1,0 +1,469 @@
+
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+}
+
+/* -----------------1ra Section ----------------------- */
+.main-logo{
+    width: 560px;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+}
+.main-logo img{
+    width: 200px;
+    height: 180px;
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.main-logo-container{
+    display: grid;
+    text-align: center;
+    font-family: Linux Libertine,Georgia,Times,serif;
+}
+.main-logo .main-logo-icon{
+    width: 200px;
+    height: 60px;
+    background-image: url('https://pngimg.com/uploads/wikipedia/wikipedia_PNG30.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+.main-logo-container h1{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+/* ----------------------2da Section Languages ------------------ */
+
+.main-laguages{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 560px;
+    margin: 0 auto;
+}
+.main-languages-item{
+    margin: 10px;
+    text-align: center;
+}
+.main-languages-item a {
+    text-decoration: none;
+}
+.main-languages-item a strong{
+    color: #36c;
+}
+.lang3 , .lang7{
+    padding-right: 100px;
+}
+.lang4 , .lang8{
+    padding-left: 100px;
+}
+.lang5 {
+    padding-right: 120px;
+}
+.lang6{
+    padding-left: 120px;
+}
+
+/* -----------------------3er Section Main Inpu ------------------ */
+.main-input{
+    width: 560px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-input-container{
+    display: inherit;
+    width: 80%;
+    height: 42px;
+    
+    border-radius: 2px;
+}
+.main-input-container a{
+    display: flex;
+    width: 12%;
+    
+}
+.main-input-container input{
+    width: 88%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding-left: 10px;
+    border: 1px solid #a2a9b1;
+}
+.main-input-container-img{
+    width: 100%;
+    background-image: url('https://lh4.googleusercontent.com/proxy/zMPoovU45wYWrlJET4uJWK-TS4MxEcRItXq3Jm1_r1NCOb-oDKZO9PiLxODMcmmczWbNnckT8Vgij9zBR8huL23bjiK2AfGdq1BQQxuNkCVTzdViP6ut0WrPyuBfmhetGMCP');
+    background-size: contain;
+    background-color:#36c;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ---------------- 4to Section main Button ------------------------ */
+.main-button{
+    width: 560px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+.main-button-container{
+    display: flex;
+    width: inherit;
+    justify-content: center;
+}
+.line-button{
+    width: 45%;
+    height: 1px;
+    background-color:#c8ccd1;
+    position: absolute;
+    margin-top: 15px;
+}
+.main-button-item{
+    display: flex;
+    height: 32px;
+    align-items: center;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    z-index: 1;
+    outline: 16px solid #ffffff;
+}
+.main-button-item span{
+    color: #36c;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    padding: 0 10px;
+}
+.main-button-container-icon{
+    width: 30px;
+    height: 30px;
+    background-image: url('https://www.4me.com/wp-content/uploads/2019/07/4me-icon-translate.png');
+    background-size: cover;
+}
+.main-button-container-icon2{
+    width: 15px;
+    height: 15px;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/materia-flat-arrows-symbols-vol-1/24/018_014_arrow_down_show-512.png');
+    background-size: cover;
+}
+
+
+/* ------------------ 5ta Section Footer -------------------------- */
+
+footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    border-top: 1px solid #c8ccd1;
+    padding-top: 40px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.footer-items-left{
+    width: 31%;
+}
+.footer-items-rigth{
+    width: 68%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.foundation-icon{
+    width: 42px;
+    height: 42px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Wikimedia_Foundation_logo_-_vertical.svg/1280px-Wikimedia_Foundation_logo_-_vertical.svg.png');
+    background-size: cover;
+}
+
+.footer-items-left-foundation{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+}
+.footer-items-left-foundation p{
+    color: #54595d;
+    padding: 0 10px;
+    margin-top: 5px;
+}
+.footer-items-left-foundation p a {
+    text-decoration: none;
+    color: #36c;
+}
+
+/* ------------------- download sidebar left ----------------------- */
+.download{
+    display: flex;
+    background-color: #f8f9fa;
+    width: 75%;
+    margin:  0 auto;
+}
+.download-img{
+    display: inherit;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin: 8px 0 0 8px;
+    background-color: #ffffff;
+    border: 1px solid #dedada;
+    border-radius: 3px;
+
+}
+
+.download-icon{
+    width: 72%;
+    background-image: url('https://i.dlpng.com/static/png/1248003-open-w-png-2000_2000_preview.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.download-items{
+    width: 75%;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.download-items span{
+    color: #36c;
+    font-weight: 700;
+}
+.download-items p {
+    color: #54595d;
+}
+
+.download-items h3{
+    font-size: 13px;
+}
+.download-items-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 40px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+/* ------------------list sidebar rigth ----------------------------- */
+
+.footer-icon1{
+    width: 47px;
+    height: 47px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg');
+    background-size: cover;
+    
+}
+.footer-icon2{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/1024px-Wikivoyage-Logo-v3-icon.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/1200px-Wikibooks-logo.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon3{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiktfavicon_en.svg/1024px-Wiktfavicon_en.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/1200px-Wikiversity_logo_2017.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon4{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/1200px-Wikibooks-logo.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/1200px-Wikisource-logo.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon5{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/1200px-Wikinews-logo.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/1024px-Wikivoyage-Logo-v3-icon.svg.png'); 
+    background-size: cover;
+    
+}
+.footer-icon6{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Notification-icon-Wikidata-logo.svg/1200px-Notification-icon-Wikidata-logo.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/1200px-Wikinews-logo.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon7{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/1200px-Wikiversity_logo_2017.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikiquote.svg/1200px-Notification-icon-Wikiquote.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon8{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikiquote.svg/1200px-Notification-icon-Wikiquote.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/1200px-Wikispecies-logo.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon9{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Notification-icon-MediaWiki-logo.svg/1200px-Notification-icon-MediaWiki-logo.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiktfavicon_en.svg/1024px-Wiktfavicon_en.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon10{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/1200px-Wikisource-logo.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Notification-icon-Wikidata-logo.svg/1200px-Notification-icon-Wikidata-logo.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon11{
+    width: 47px;
+    height: 47px;
+    /* background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/1200px-Wikispecies-logo.svg.png'); */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Notification-icon-MediaWiki-logo.svg/1200px-Notification-icon-MediaWiki-logo.svg.png');
+    background-size: cover;
+    
+}
+.footer-icon12{
+    width: 47px;
+    height: 47px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Meta-Wiki_Proposed_logo.svg/1200px-Meta-Wiki_Proposed_logo.svg.png');
+    background-size: cover;
+    
+}
+
+.download-googlepay{
+    width: 48%;
+    height: 50px;
+    background-image: url('https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.download-ios{
+    width: 48%;
+    height: 33px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Download_on_iTunes.svg/440px-Download_on_iTunes.svg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* -------------------- sidebar rigth ---------------------------- */
+
+.footer-items-rigth ul {
+    list-style: none;
+    margin: 0;
+}
+.footer-items-rigth ul li{
+    height: 72px;
+    margin-bottom: 18px;
+}
+.footer-items-rigth-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    text-decoration: none;
+}
+.footer-items-rigth-grid-img{
+    display: inherit;
+}
+.footer-icon {
+    background-size:  contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer-items-rigth-grid2{
+    display: grid;
+    
+}
+.footer-items-rigth-grid2 small{
+    font-size: 14px;
+    color: #36c;
+}
+.footer-items-rigth-grid2 p{
+    font-size: 12px;
+    color: #54595d;
+    margin-top: 0;
+}
+/* ---------------------------- footer button ---------------------- */
+.footer-button{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    padding-top: 7px;
+}
+.footer-button p {
+    color: #54595d;
+}
+.footer-button ul {
+    display: flex;
+    padding: 0;
+}
+.footer-button ul li {
+    margin-right: 20px;
+}
+.footer-button a{
+    text-decoration: none;
+    color: #36c;
+}
+.footer-button #list1{
+    list-style: none;
+    margin-left: 5px;
+}
+
+
+/* -------------------pseudoclass css------------------------------------- */
+
+.main-languages-item a strong:hover{
+    text-decoration: underline;
+}
+.main-input-container input:hover{
+    border:1px solid #72777d;
+}
+.main-input-container-img:hover{
+    background: #447ff5;
+    background-image: url('https://lh4.googleusercontent.com/proxy/zMPoovU45wYWrlJET4uJWK-TS4MxEcRItXq3Jm1_r1NCOb-oDKZO9PiLxODMcmmczWbNnckT8Vgij9zBR8huL23bjiK2AfGdq1BQQxuNkCVTzdViP6ut0WrPyuBfmhetGMCP');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.main-input-container input:focus{
+    outline: auto;
+    outline-color: #36c;
+    border: 1px solid #36c;
+}
+.main-button-item:hover{
+    background-color: #fff;
+    cursor: pointer;
+}
+.footer-items-left-foundation p a:hover{
+    text-decoration: underline;
+}
+.download-items span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-button ul li:hover{
+    text-decoration: underline;
+}
